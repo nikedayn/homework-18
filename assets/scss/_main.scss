@@ -1,0 +1,33 @@
+main{
+    @media (max-width: 1024px) {
+        align-self: center;
+    }
+}
+
+.main_words{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    row-gap: 30px;
+
+    .main_slogan{
+        font-size: 110px;
+        line-height: 100px;
+    }
+
+    .bottom_text {
+        font-size: 34px;
+        line-height: 51px;
+    }
+
+    .join_us{
+        width: 265px;
+        height: 81px;
+        background: $btnsColor;
+        border-radius: 10px;
+        color: $mainTextColor;
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
